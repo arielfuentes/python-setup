@@ -1,0 +1,9 @@
+#environment
+conda create --name env-00
+conda activate env-00
+#############################
+conda create -n geo_env
+conda activate geo_env
+conda config --env --add channels conda-forge
+conda config --env --set channel_priority strict
+conda install python=3 geopandas
