@@ -1,0 +1,3 @@
+#environment
+conda create --name env-00
+conda activate env-00
