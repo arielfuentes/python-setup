@@ -10,3 +10,7 @@ conda install python=3 geopandas
 ############################################
 conda activate geo_env
 spyder
+##############################################
+#In RStudio setup Global Options, then Python interpreter
+#to exit just use
+exit
