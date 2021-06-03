@@ -11,7 +11,9 @@ conda install python=3 geopandas
 conda activate geo_env
 spyder
 ##############################################
-#In RStudio setup Global Options, then Python interpreter
+#In RStudio
+install.packages("reticulate")
+#setup Global Options, then Python interpreter
 #to start the console
 reticulate::repl_python()
 #to exit just use
