@@ -1,7 +1,7 @@
 #libraries
 import geopandas as gpd
 import fiona
-from plotnine import *
+from plotnine import (ggplot, aes, geom_point, geom_smooth, labs)
 #kmldata
 gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 zn_rrl = gpd.read_file('data\\rural_rancagua.kml', driver='KML')
